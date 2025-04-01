@@ -1,0 +1,239 @@
+{
+  "locale": "pt-BR",
+  "currency": "BRL",
+  "uber": {
+    "pricing": {
+      "base": 8,
+      "per_km": 1237
+    },
+    "common_places": [
+      { "name": "Praça", "location": [178.02,-927.91,29.23] },
+      { "name": "Hospital", "location": [297.07,-583.30,43.13] },
+      { "name": "Mecânica Sul AutoExotic", "location": [534.94,-183.93,54.27] },
+      { "name": "Mecânica Norte CentralCustom", "location": [119.11,6620.48,31.82] },
+      { "name": "Departamento Policial Militar", "location": [-376.17,-237.25,35.36] },
+      { "name": "Policia Rodoviaria Federal", "location": [-290.53,6060.88,31.49] }
+    ],
+    "cancelable": 1
+  },
+  "food": {
+    "categories": [
+      { "id": 1, "name": "Restaurantes" },
+      { "id": 2, "name": "Bebidas" },
+      { "id": 3, "name": "Farmácias" }
+    ],
+    "stores": [
+      {
+        "id": 1,
+        "name": "7 Eleven 24h",
+        "icon": "https://ih1.redbubble.net/image.2320262164.4775/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "category_id": 1,
+        "price": 1,
+        "fee": 50,
+        "location": [29.0, -1342.89, 29.5],
+        "products": [
+          {
+            "id": 7,
+            "name": "Frango Frito",
+            "description": "Porção de 200gr de frango frito.",
+            "price": 80,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1178023840358617158/1178069511858040922/chickenfries.png?ex=6574cdbb&is=656258bb&hm=a23347e9fc5fa7c12f9402a8379d42807396d9aeab9e8cb665de4e88da403bff&",
+            "items": {
+              "chickenfries": 1
+            }
+          },
+          {
+            "id": 8,
+            "name": "Cola",
+            "description": "",
+            "price": 50,
+            "section": "Bebidas",
+            "image": "https://tdc0wy.vteximg.com.br/arquivos/ids/159104-1000-1000/REFRIGERANTE-COCA-COLA-PET-250ML-ZERO.png?v=638121793992200000",
+            "items": {
+              "cola": 1
+            }
+          },
+          {
+            "id": 9,
+            "name": "Soda",
+            "description": "",
+            "price": 50,
+            "section": "Bebidas",
+            "image": "https://dcdn-us.mitiendanube.com/stores/001/043/122/products/soda-350-ml1-9847628d65ef404c7715698483081135-640-0.webp",
+            "items": {
+              "soda": 1
+            }
+          },
+
+          {
+            "id": 101,
+            "name": "Chocolate",
+            "description": "",
+            "price": 50,
+            "section": "Doces",
+            "image": "https://cdn.discordapp.com/attachments/1178023840358617158/1178069945402265732/chocolate.png?ex=6574ce22&is=65625922&hm=b613242afe842bdefbecd63238dac4b8997d1867e4f24df0190d2843e4566984&",
+            "items": {
+              "chocolate": 1
+            }
+          },
+          {
+            "id": 10,
+            "name": "Água",
+            "description": "",
+            "price": 50,
+            "section": "Bebidas",
+            "image": "https://redemix.vteximg.com.br/arquivos/ids/211956-1000-1000/7894900530001.jpg?v=638350616361030000",
+            "items": {
+              "water": 1
+            }
+          },
+          {
+            "id": 205,
+            "name": "Energético",
+            "description": "",
+            "price": 100,
+            "section": "Bebidas",
+            "image": "https://www.emporiofreicaneca.com.br/wp-content/uploads/2020/06/red-bull.png.webp",
+            "items": {
+              "energetic": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Burgershot",
+        "icon": "https://ih1.redbubble.net/image.2293502912.2530/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+        "category_id": 1,
+        "price": 1,
+        "fee": 50,
+        "location": [-1183.71,-884.36,13.8],
+        "products": [
+          {
+            "id": 1,
+            "name": "Cheeseburguer",
+            "description": "Pão, hambúrguer, queijo cheddar, picles e ketckup.",
+            "price": 50,
+            "section": "Lanches",
+            "image": "https://d3sn2rlrwxy0ce.cloudfront.net/_800x600_crop_center-center_none/cheeseburger-thumb_2021-09-16-134559_ypzs.png?mtime=20210916094600&focal=none&tmtime=20210916095008",
+            "items": {
+              "hamburger": 1
+            }
+          },
+          {
+            "id": 2,
+            "name": "Baconburger",
+            "description": "Pão, hambúrguer, queijo cheddar, bacon e ketchup.",
+            "price": 50,
+            "section": "Lanches",
+            "image": "https://d3sn2rlrwxy0ce.cloudfront.net/_800x600_crop_center-center_none/cheeseburger-bacon-thumb_2021-09-16-134755_cxdp.png?mtime=20210916094756&focal=none&tmtime=20210916095009",
+            "items": {
+              "hamburger": 1
+            }
+          },
+          {
+            "id": 7,
+            "name": "Frango Frito",
+            "description": "Porção de 200gr de frango frito.",
+            "price": 80,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1178023840358617158/1178069511858040922/chickenfries.png?ex=6574cdbb&is=656258bb&hm=a23347e9fc5fa7c12f9402a8379d42807396d9aeab9e8cb665de4e88da403bff&",
+            "items": {
+              "chickenfries": 1
+            }
+          }
+        ] 
+      },
+      {
+        "id": 3,
+        "name": "KoiSushi",
+        "icon": "https://cdn.discordapp.com/attachments/1321964234942320660/1350724185663475793/unnamed.png?ex=67dd0d6d&is=67dbbbed&hm=11bb527a97cbea89a1779fd5c974323e0bd3da9f965e2ab08e8977e8b2ff3851&",
+        "category_id": 1,
+        "price": 1,
+        "fee": 80,
+        "location": [-1238.64,-272.89,37.77],
+        "products": [
+          {
+            "id": 15,
+            "name": "Sushi",
+            "description": "Porção de 200gr.",
+            "price": 130,
+            "section": "Comida",
+            "image": "https://img2.gratispng.com/20171220/koq/av2qq167p.webp",
+            "items": {
+              "sushi": 1
+            }
+          },
+          {
+            "id": 17,
+            "name": "Nigirizushi",
+            "description": "Porção de 200gr.",
+            "price": 130,
+            "section": "Comida",
+            "image": "https://img.freepik.com/fotos-premium/nigiri-sushi-isolado-no-fundo-branco-close-up_93675-109738.jpg?w=1480",
+            "items": {
+              "nigirizushi": 1
+            }
+          },
+          {
+            "id": 8,
+            "name": "Cola",
+            "description": "",
+            "price": 50,
+            "section": "Bebidas",
+            "image": "https://tdc0wy.vteximg.com.br/arquivos/ids/159104-1000-1000/REFRIGERANTE-COCA-COLA-PET-250ML-ZERO.png?v=638121793992200000",
+            "items": {
+              "cola": 1
+            }
+          },
+          {
+            "id": 9,
+            "name": "Soda",
+            "description": "",
+            "price": 50,
+            "section": "Bebidas",
+            "image": "https://dcdn-us.mitiendanube.com/stores/001/043/122/products/soda-350-ml1-9847628d65ef404c7715698483081135-640-0.webp",
+            "items": {
+              "soda": 1
+            }
+          },
+
+          {
+            "id": 99,
+            "name": "Suco de Laranja",
+            "description": "suco da fruta",
+            "price": 260,
+            "section": "Bebidas",
+            "image": "https://www.padariapampulha.com.br/wp-content/uploads/2023/12/95587.png",
+            "items": {
+              "orangejuice": 1
+            }
+          },
+          {
+            "id": 10,
+            "name": "Água",
+            "description": "",
+            "price": 50,
+            "section": "Bebidas",
+            "image": "https://redemix.vteximg.com.br/arquivos/ids/211956-1000-1000/7894900530001.jpg?v=638350616361030000",
+            "items": {
+              "water": 1
+            }
+          },
+          {
+            "id": 205,
+            "name": "Energético",
+            "description": "",
+            "price": 100,
+            "section": "Bebidas",
+            "image": "https://www.emporiofreicaneca.com.br/wp-content/uploads/2020/06/red-bull.png.webp",
+            "items": {
+              "energetic": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
