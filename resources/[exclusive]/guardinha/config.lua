@@ -1,0 +1,1 @@
+horas_guardinha = 8 -- de quantas em quantas horas o guardinha irá recolher os veiculos
