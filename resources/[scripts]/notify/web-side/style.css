@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: flex-end; /* Alinha os itens à direita */
+  padding-right: 1rem; /* Espaçamento à direita */
+  padding-top: 0; /* Remove o padding do topo */
+}
+
+.notifyC {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinha as notificações à direita */
+  gap: 0.9rem;
+  margin-top: 18rem; /* Move para baixo */
+}
+
+
+
+
+
+
+
+.notify {
+  max-width: 20.9375rem;
+  min-height: 3.375rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(1, 128, 247, 0.795);
+  display: flex;
+  align-items: center;
+  padding: 0.94rem;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.notify p {
+  color: #fff;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.notify .progress {
+  width: 85%;
+  height: 0.125rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  animation: progressBar 5s linear;
+}
+
+
+@keyframes progressBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
